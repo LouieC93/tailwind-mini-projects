@@ -1,8 +1,10 @@
 <template>
-  <nav class="bg-stone-300 p-8 w-full shadow-md shadow-zinc-500/30">
-    <ul class="flex justify-evenly">
-      <li v-for="(router, index) in routers" :key="index">
-        <NuxtLink :to="router.path">> {{ router.name }}</NuxtLink>
+  <nav class="bg-stone-300 w-full shadow-md shadow-zinc-500/30">
+    <ul class="flex flex-col gap-0 md:flex-row justify-evenly">
+      <li v-for="(router, index) in routers" :key="index" class="first:pt-2">
+        <NuxtLink class="text-sm pb-2 md:py-4 px-8 block" :to="router.path"
+          >> {{ router.name }}</NuxtLink
+        >
       </li>
     </ul>
   </nav>
@@ -10,8 +12,12 @@
 <script lang="ts" setup>
 const routers = [
   {
-    name: "Mail Subscribe",
+    name: "Mail Subscription",
     path: "/mail",
+  },
+  {
+    name: "Pricing Plans",
+    path: "/pricing",
   },
 ];
 </script>
