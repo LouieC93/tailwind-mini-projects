@@ -1,75 +1,22 @@
-# Nuxt 3 Minimal Starter
+# Tailwind Mini Projects
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+There are five simple pages that built with tailwind css in this repo.
 
-## Setup
+## Getting Started
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+This monorepo project is managed by pnpm, so you must install pnpm first.
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+# Install all dependencies
+pnpm i
+# run dev server
+pnpm dev
 ```
 
-## Production
+## Pages Screenshot
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+|                    | Desktop                               | Mobile                                |
+| ------------------ | ------------------------------------- | ------------------------------------- |
+| Email Subscription | <img src="./docs/1l.png" width="450"> | <img src="./docs/1s.png" width="150"> |
+| Pricing Plans      | <img src="./docs/2l.png" width="450"> | <img src="./docs/2s.png" width="150"> |
+| Product Modal      | <img src="./docs/3l.png" width="450"> | <img src="./docs/3s.png" width="150"> |
