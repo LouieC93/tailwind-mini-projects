@@ -15,6 +15,13 @@ export default <RouterConfig>{
         import("~/pages/PricingPlansPage.vue").then((r) => r.default || r),
     },
     {
+      name: "Product Modal",
+      path: "/product",
+
+      component: () =>
+        import("~/pages/ProductModalPage.vue").then((r) => r.default || r),
+    },
+    {
       path: "/:pathMatch(.*)*",
       redirect: {
         name: "mail",
