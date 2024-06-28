@@ -1,6 +1,6 @@
 # Tailwind Mini Projects
 
-There are five simple pages that built with tailwind css in this repo.
+This repository contains five simple pages built with Tailwind CSS, showcasing various components and layouts.
 
 ## Getting Started
 
@@ -20,3 +20,4 @@ pnpm dev
 | Email Subscription | <img src="./docs/1l.png" width="450"> | <img src="./docs/1s.png" width="150"> |
 | Pricing Plans      | <img src="./docs/2l.png" width="450"> | <img src="./docs/2s.png" width="150"> |
 | Product Modal      | <img src="./docs/3l.png" width="450"> | <img src="./docs/3s.png" width="150"> |
+| Image Gallery      | <img src="./docs/4l.png" width="450"> | <img src="./docs/4s.png" width="150"> |

@@ -22,6 +22,13 @@ export default <RouterConfig>{
         import("~/pages/ProductModalPage.vue").then((r) => r.default || r),
     },
     {
+      name: "Image Gallery",
+      path: "/gallery",
+
+      component: () =>
+        import("~/pages/ImageGalleryPage.vue").then((r) => r.default || r),
+    },
+    {
       path: "/:pathMatch(.*)*",
       redirect: {
         name: "mail",
