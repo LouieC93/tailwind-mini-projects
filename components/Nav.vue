@@ -33,5 +33,9 @@ const routers = [
     name: "Image Gallery",
     path: "/gallery",
   },
+  {
+    name: "Login Modal",
+    path: "/login",
+  },
 ];
 </script>

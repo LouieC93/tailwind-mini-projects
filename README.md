@@ -21,3 +21,4 @@ pnpm dev
 | Pricing Plans      | <img src="./docs/2l.png" width="450"> | <img src="./docs/2s.png" width="150"> |
 | Product Modal      | <img src="./docs/3l.png" width="450"> | <img src="./docs/3s.png" width="150"> |
 | Image Gallery      | <img src="./docs/4l.png" width="450"> | <img src="./docs/4s.png" width="150"> |
+| Login Modal        | <img src="./docs/5l.png" width="450"> | <img src="./docs/5s.png" width="150"> |

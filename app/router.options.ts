@@ -6,27 +6,34 @@ export default <RouterConfig>{
       name: "Mail Subscription",
       path: "/mail",
       component: () =>
-        import("~/pages/MailSubscribePage.vue").then((r) => r.default || r),
+        import("~/pages/MailSubscribe.vue").then((r) => r.default || r),
     },
     {
       name: "Pricing Plans",
       path: "/pricing",
       component: () =>
-        import("~/pages/PricingPlansPage.vue").then((r) => r.default || r),
+        import("~/pages/PricingPlans.vue").then((r) => r.default || r),
     },
     {
       name: "Product Modal",
       path: "/product",
 
       component: () =>
-        import("~/pages/ProductModalPage.vue").then((r) => r.default || r),
+        import("~/pages/ProductModal.vue").then((r) => r.default || r),
     },
     {
       name: "Image Gallery",
       path: "/gallery",
 
       component: () =>
-        import("~/pages/ImageGalleryPage.vue").then((r) => r.default || r),
+        import("~/pages/ImageGallery.vue").then((r) => r.default || r),
+    },
+    {
+      name: "Login Modal",
+      path: "/login",
+
+      component: () =>
+        import("~/pages/LoginModal.vue").then((r) => r.default || r),
     },
     {
       path: "/:pathMatch(.*)*",
