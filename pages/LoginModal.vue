@@ -2,9 +2,9 @@
   <div class="bg-violet-50 flex items-center justify-center min-h-full">
     <!-- modal -->
     <div
-      class="relative bg-white flex flex-col rounded-2xl shadow-xl shadow-gray-400/30 md:grid md:grid-cols-7 md:grid-rows-1 w-4/5 md:max-w-4xl gap-8 overflow-hidden"
+      class="relative bg-white flex flex-col rounded-2xl shadow-xl shadow-gray-400/30 md:grid md:grid-cols-7 md:grid-rows-1 w-4/5 md:max-w-4xl gap-4 overflow-hidden"
     >
-      <div class="col-start-1 col-end-5 p-12">
+      <div class="col-start-1 col-end-5 p-12 pl-16">
         <h2 class="text-3xl font-bold mb-4">Log In</h2>
         <p class="text-gray-400 mb-8">
           Log in to your account to access all amazing features and contents.
