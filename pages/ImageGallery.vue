@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-50 flex items-center justify-center p-8">
+  <div class="bg-indigo-50 flex items-center justify-center p-8 min-h-full">
     <div
       class="bg-white shadow-md p-8 md:px-32 md:py-24 rounded-2xl flex flex-col gap-2 md:gap-6"
     >
